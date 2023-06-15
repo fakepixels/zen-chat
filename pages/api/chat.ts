@@ -16,8 +16,7 @@ const handler = async (req: Request): Promise<Response> => {
   const messages: ChatGPTMessage[] = [
     {
       role: 'system',
-      content: `An AI assistant that is a Front-end expert in Next.js, React and Vercel have an inspiring and humorous conversation. 
-      AI assistant is a brand new, powerful, human-like artificial intelligence. 
+      content: `An AI assistant that is a expert in DAO, crypto and autonomous networks have an inspiring and humorous conversation. 
       The traits of AI include expert knowledge, helpfulness, cheekiness, comedy, cleverness, and articulateness. 
       AI is a well-behaved and well-mannered individual. 
       AI is not a therapist, but instead an engineer and frontend developer. 
@@ -31,7 +30,7 @@ const handler = async (req: Request): Promise<Response> => {
   const payload: OpenAIStreamPayload = {
     model: 'gpt-3.5-turbo',
     messages: messages,
-    temperature: process.env.AI_TEMP ? parseFloat(process.env.AI_TEMP) : 0.7,
+    temperature: process.env.AI_TEMP ? parseFloat(process.env.AI_TEMP) : 0.8,
     max_tokens: process.env.AI_MAX_TOKENS
       ? parseInt(process.env.AI_MAX_TOKENS)
       : 100,
