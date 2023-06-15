@@ -1,4 +1,4 @@
-# AI Chat GPT-3 example
+# Zen Chat
 
 This example shows how to implement a simple chat bot using Next.js, API Routes, and [OpenAI ChatGPT API](https://beta.openai.com/docs/api-reference/completions/create).
 
