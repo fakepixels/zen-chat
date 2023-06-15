@@ -8,8 +8,8 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3'
 // default first message to display in UI (not necessary to define the prompt)
 export const initialMessages: ChatGPTMessage[] = [
   {
-    role: 'assistant',
-    content: 'Hi! I am a friendly AI assistant. Ask me anything!',
+    role: 'staff',
+    content: 'Hi! Welcome to 0xstation. Ask me anything!',
   },
 ]
 
