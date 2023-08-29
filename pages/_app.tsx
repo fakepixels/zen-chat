@@ -11,9 +11,9 @@ function App({ Component, pageProps }: AppProps) {
 
   return (
     <Layout
-      title="ai-chatgpt"
+      title="Zen Chat by Fakepixels"
       path="solutions/ai-chatgpt"
-      description="ai-chatgpt"
+      description="Have a conversation with Tao Te Ching and I-ching. Hope you find peace and wisdom."
     >
       <Component {...pageProps} />
       <Analytics />
